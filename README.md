@@ -25,6 +25,7 @@ It may be easier to fork. In that case, please change the repository name from S
 Please execute command manually.
 
 ```
+docker-compose build --no-cache web
 docker-compose run --rm web bundle install
 docker-compose run --rm web bundle exec rails new . -f -d=mysql
 docker-compose run --rm web bundle update
