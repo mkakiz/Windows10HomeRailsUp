@@ -36,4 +36,4 @@ WORKDIR /app
 ENV HOME /app
 
 # executing bundle install
-COPY . /app/
+COPY Gemfile /app/Gemfile
